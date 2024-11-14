@@ -1,0 +1,20 @@
+ /* Asegura que el footer se quede al fondo */
+ html, body {
+    height: 100%;
+  }
+  .content-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    margin-top: auto;
+  }
+  .form-container {
+    max-width: 400px; /* Hacer el formulario más estrecho */
+    margin: 0 auto; /* Centrar el formulario */
+  }
+  /* Ajustar el formulario para que esté un poco más abajo */
+  .form-section {
+    margin-top: 100px; /* Añadir un margen superior para mover el formulario hacia abajo */
+  }

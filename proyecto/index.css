@@ -1,0 +1,20 @@
+ /* Estilo de zoom para las imágenes */
+ .product-img {
+    transition: transform 0.3s ease;
+  }
+
+  .product-img:hover {
+    transform: scale(1.1);
+  }
+
+  /* Fondo oscuro y texto claro para la sección de referidos */
+  .referidos-section {
+    background-color: #343a40;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  .card-img-top {
+    height: 300px; /* Ajusta esta altura según tus necesidades */
+    object-fit: cover;
+  }
